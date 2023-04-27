@@ -11,3 +11,8 @@ body {
   margin: 0;
   font-family: Verdana;
 }
+
+/* Other */
+.normal { font-weight: normal; }
+.light { font-weight: light; }
+.bold { font-weight: bold; }
