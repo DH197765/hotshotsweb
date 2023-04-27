@@ -12,6 +12,12 @@ body {
   font-family: Verdana;
 }
 
+/* Remove this soon */
+body > * {
+  padding: 1em;
+  text-align: center;
+}
+
 /* Other */
 .normal { font-weight: normal; }
 .light { font-weight: light; }
