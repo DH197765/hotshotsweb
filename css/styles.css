@@ -54,6 +54,7 @@ footer > div.footer-content > div {
 
 footer > div.footer-content > div div.head {
   margin-bottom: 0.5em;
+  font-weight: bold;
 }
 
 footer > div.footer-content > div a {
