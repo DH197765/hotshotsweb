@@ -65,6 +65,8 @@ footer > div.footer-content > div a {
 }
 
 /* Content */
+div.page { padding: 1em; }
+
 div.content {
   margin: auto;
   max-width: 1000px;
