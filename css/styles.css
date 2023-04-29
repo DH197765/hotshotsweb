@@ -52,6 +52,9 @@ footer > div.footer-content > div {
   line-height: 1.8;
 }
 
+footer > div.footer-content > div.img { flex-direction: row; }
+footer > div.footer-content > div.img img { margin-right: 0.5em; }
+
 footer > div.footer-content > div div.head {
   margin-bottom: 0.5em;
   font-weight: bold;
