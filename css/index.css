@@ -33,6 +33,7 @@ div.prompt div {
 
 div.prompt a {
     margin: auto 0 auto auto;
+    text-decoration: none;
     background-color: #004BD6;
     color: white;
     padding: 1em;
