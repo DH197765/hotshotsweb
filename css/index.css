@@ -3,10 +3,6 @@
     font-family: 'Figtree', sans-serif;
 }
 
-body {
-    
-}
-
 /* Content */
 div.main {
     display: flex;
@@ -14,8 +10,29 @@ div.main {
     justify-content: center;
     align-items: center;
     margin: 2em auto;
+    padding: 2em;
     max-width: 600px;
     text-align: center;
+}
+
+/* Cookie Prompt */
+div.prompt {
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    bottom: 2em;
+    left: 50%; transform: translateX(-50%);
+    padding: 1em;
+    border: red solid 2px;
+}
+
+div.prompt a {
+    margin: auto 0 auto auto;
+    background-color: #004BD6;
+    color: white;
+    padding: 1em;
+    display: inline-block;
 }
 
 /* Other */
