@@ -11,10 +11,10 @@ body {
   font-family: 'Figtree', sans-serif;
 }
 
-/* Remove this soon */
-body > * {
-  padding: 1em;
-  text-align: center;
+/* Content */
+div.content {
+  margin: auto;
+  max-width: 1000px;
 }
 
 /* Other */
