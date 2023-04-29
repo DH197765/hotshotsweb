@@ -84,6 +84,7 @@ div.page > div.content {
 img.thumbnail {
   max-width: 320px;
   float: right;
+  border-radius: 12px;
 }
 
 /* Other */
