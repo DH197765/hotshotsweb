@@ -21,6 +21,10 @@ header > div {
   grid-template-columns: auto auto;
 }
 
+header > div > img {
+  filter: hue-rotate(160deg);
+}
+
 header > div > nav {
   margin: auto 0 auto auto;
 }
