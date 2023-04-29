@@ -17,3 +17,6 @@ div.main {
     max-width: 600px;
     text-align: center;
 }
+
+/* Other */
+.spaced { line-height: 1.5; }
