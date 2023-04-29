@@ -11,6 +11,27 @@ body {
   font-family: 'Figtree', sans-serif;
 }
 
+/* Header */
+header {
+  padding: 1em;
+}
+
+header > div {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+header > div > nav {
+  margin: auto 0 auto auto;
+}
+
+header > div > nav a {
+  padding: 0.5em;
+  color: black;
+  text-decoration: none;
+  margin: 3px 0.5px;
+}
+
 /* Content */
 div.content {
   margin: auto;
