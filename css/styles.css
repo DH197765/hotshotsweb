@@ -76,6 +76,7 @@ div.content {
 }
 
 /* Other */
+.small { font-size: smaller; }
 .normal { font-weight: normal; }
 .light { font-weight: light; }
 .spaced { line-height: 1.5; }
