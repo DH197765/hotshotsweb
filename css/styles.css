@@ -72,8 +72,18 @@ footer > div.footer-content > div a:hover { text-decoration: underline; }
 div.page { padding: 1em; }
 
 div.content {
-  margin: 1em auto;
+  margin: auto;
   max-width: 1000px;
+}
+
+div.page > div.content {
+  margin: 1em auto;
+}
+
+/* Thumbnail */
+img.thumbnail {
+  max-width: 320px;
+  float: right;
 }
 
 /* Other */
