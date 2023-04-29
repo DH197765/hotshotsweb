@@ -36,6 +36,7 @@ header > div > nav a {
 footer {
   padding: 1em;
   margin-top: auto;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 footer > div.footer-content {
