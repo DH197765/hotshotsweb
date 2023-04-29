@@ -32,6 +32,34 @@ header > div > nav a {
   margin: 3px 0.5px;
 }
 
+/* Footer */
+footer {
+  padding: 1em;
+  margin-top: auto;
+}
+
+footer > div.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.5em;
+}
+
+footer > div.footer-content > div {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+footer > div.footer-content > div div.head {
+  margin-bottom: 0.5em;
+}
+
+footer > div.footer-content > div a {
+  font-size: smaller;
+  color: black;
+  text-decoration: none;
+}
+
 /* Content */
 div.content {
   margin: auto;
@@ -41,3 +69,4 @@ div.content {
 /* Other */
 .normal { font-weight: normal; }
 .light { font-weight: light; }
+.spaced { line-height: 1.5; }
