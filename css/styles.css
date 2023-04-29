@@ -72,7 +72,7 @@ footer > div.footer-content > div a:hover { text-decoration: underline; }
 div.page { padding: 1em; }
 
 div.content {
-  margin: auto;
+  margin: 1em auto;
   max-width: 1000px;
 }
 
