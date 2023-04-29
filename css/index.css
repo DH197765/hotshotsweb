@@ -27,12 +27,20 @@ div.prompt {
     border: red solid 2px;
 }
 
+div.prompt div {
+    padding: 1em;
+}
+
 div.prompt a {
     margin: auto 0 auto auto;
     background-color: #004BD6;
     color: white;
     padding: 1em;
     display: inline-block;
+}
+
+div.prompt a:hover {
+    background-color: black;
 }
 
 /* Other */
