@@ -19,6 +19,7 @@ div.main {
 div.prompt {
     position: fixed;
     display: grid;
+    justify-content: center;
     grid-template-columns: auto auto;
 
     bottom: 2em;
@@ -30,7 +31,7 @@ div.prompt {
 }
 
 div.prompt div {
-    padding: 1em;
+    padding: 0em 1em;
 }
 
 div.prompt a {
@@ -40,6 +41,7 @@ div.prompt a {
     color: white;
     padding: 1em;
     display: inline-block;
+    border-radius: 8px;
 }
 
 div.prompt a:hover {
