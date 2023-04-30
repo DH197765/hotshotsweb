@@ -126,6 +126,31 @@ div.avatar-grid > div.avatar-container img {
   margin-bottom: 1em;
 }
 
+/* Application */
+div.application {
+  padding: 1em;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+div.application > form > p {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2em;
+}
+
+div.application > form > p label {
+  display: inline-block;
+  padding: 0.5em;
+  color: #004BD6;
+}
+
+div.application > form > p input[type="text"] {
+  padding: 1em;
+  border: none;
+  border-bottom: 1px solid #4F4F4F;
+}
+
 /* Thumbnail */
 img.thumbnail {
   max-width: 320px;
