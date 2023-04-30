@@ -80,6 +80,28 @@ div.page > div.content {
   margin: 1em auto;
 }
 
+/* Member Avatars */
+div.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5em;
+}
+
+div.avatar-grid > div.avatar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+div.avatar-grid > div.avatar-container img {
+  width: 100%; max-width: 120px;
+  border-radius: 6px;
+}
+
 /* Thumbnail */
 img.thumbnail {
   max-width: 320px;
