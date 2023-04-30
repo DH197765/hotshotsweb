@@ -19,7 +19,7 @@ div.main {
 div.prompt {
     position: fixed;
     display: grid;
-    justify-content: center;
+    align-items: center;
     grid-template-columns: auto auto;
 
     bottom: 2em;
