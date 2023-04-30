@@ -163,6 +163,15 @@ div.application > form > p textarea {
   padding: 1em;
 }
 
+div.application > form > button {
+  float: right;
+  padding: 1em;
+  border: none;
+  font-size: normal;
+  color: white;
+  background-color: #004BD6;
+}
+
 /* Thumbnail */
 img.thumbnail {
   max-width: 320px;
