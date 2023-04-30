@@ -24,7 +24,9 @@ div.prompt {
     bottom: 2em;
     left: 50%; transform: translateX(-50%);
     padding: 1em;
-    border: red solid 2px;
+    border: rgba(0, 0, 0, 0.125) solid 1px;
+    border-radius: 8px;
+    box-shadow: 0 2px 0.8rem rgba(0, 0, 0, 0.125);
 }
 
 div.prompt div {
