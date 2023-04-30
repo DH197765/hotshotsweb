@@ -84,7 +84,7 @@ div.page > div.content {
 div.avatar-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 0.5em;
+  gap: 1em;
 }
 
 div.avatar-grid > div.avatar-container {
@@ -95,11 +95,12 @@ div.avatar-grid > div.avatar-container {
   aspect-ratio: 1/1;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
 }
 
 div.avatar-grid > div.avatar-container img {
   width: 100%; max-width: 120px;
-  border-radius: 120px;
+  border-radius: 12px;
 }
 
 /* Thumbnail */
