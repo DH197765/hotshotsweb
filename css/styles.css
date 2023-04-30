@@ -145,7 +145,7 @@ div.application > form > p label {
   color: #004BD6;
 }
 
-div.application > form > p input[type="text"] {
+div.application > form > p input {
   padding: 1em;
   border: none;
   border-bottom: 1px solid #4F4F4F;
