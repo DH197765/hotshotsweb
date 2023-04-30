@@ -151,8 +151,9 @@ div.application > form > p input[type="text"] {
   border-bottom: 1px solid #4F4F4F;
 }
 
-div.application > form > p input[type="file"] {
+div.application > form > p input[type="file"]::file-selector-button {
   padding: 1em;
+  background: white;
 }
 
 div.application > form > p textarea {
