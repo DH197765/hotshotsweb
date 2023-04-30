@@ -101,6 +101,7 @@ div.avatar-grid > div.avatar-container {
 div.avatar-grid > div.avatar-container img {
   width: 100%; max-width: 120px;
   border-radius: 12px;
+  margin-bottom: 1em;
 }
 
 /* Thumbnail */
