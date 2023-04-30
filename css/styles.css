@@ -151,6 +151,12 @@ div.application > form > p input[type="text"] {
   border-bottom: 1px solid #4F4F4F;
 }
 
+div.application > form > p textarea {
+  max-height: 400px;
+  resize: vertical;
+  padding: 1em;
+}
+
 /* Thumbnail */
 img.thumbnail {
   max-width: 320px;
