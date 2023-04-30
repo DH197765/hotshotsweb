@@ -96,6 +96,12 @@ div.avatar-grid > div.avatar-container {
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 12px;
+  transition: box-shadow 0.125s ease-in-out;
+}
+
+div.avatar-grid > div.avatar-container:hover {
+  background-color: white;
+  box-shadow: 0 0 0.5rem rgb(0,0,0,0.1);
 }
 
 div.avatar-grid > div.avatar-container img {
