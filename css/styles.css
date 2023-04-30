@@ -157,8 +157,6 @@ div.application > form > p input[type="file"]::file-selector-button {
   background: white;
 }
 
-div.application > form > p input[type="file"]::file-selector-text
-
 div.application > form > p textarea {
   max-height: 400px;
   resize: vertical;
