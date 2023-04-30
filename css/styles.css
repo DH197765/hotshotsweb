@@ -135,7 +135,7 @@ div.application {
 
 div.application > form > p {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: max-content auto;
   gap: 2em;
 }
 
