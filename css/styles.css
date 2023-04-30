@@ -152,7 +152,8 @@ div.application > form > p input[type="text"] {
 }
 
 div.application > form > p input[type="file"]::file-selector-button {
-  padding: 1em;
+  padding: 1em 2em;
+  border: solid 1px #4F4F4F;
   background: white;
 }
 
