@@ -151,6 +151,10 @@ div.application > form > p input[type="text"] {
   border-bottom: 1px solid #4F4F4F;
 }
 
+div.application > form > p input[type="file"] {
+  padding: 1em;
+}
+
 div.application > form > p textarea {
   max-height: 400px;
   resize: vertical;
