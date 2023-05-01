@@ -85,7 +85,7 @@ div.split {
   display: grid;
   grid-template-columns: auto auto;
   gap: 2em;
-  margin: auto;
+  margin: 0 auto;
   max-width: 1000px;
   box-sizing: content-box;
 }
