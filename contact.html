@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HotShots Web Contact</title>
+        
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Unit 15 Website Development Assignment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Styling & Fonts -->
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet"> 
+
+        <!-- Functionality (Javascript) -->
+        <script async src="js/index.js"></script>
+    </head>
+    <body>
+        <!-- Header which includes the navigational aspect to the webpage. -->
+        <header>
+            <div class="content">
+                <img src="img/icon/logo.png" alt="website logo" width="50" height="50">
+                <nav>
+                    <a href="our-team.html">Our Team</a>
+                    <a href="jobs.html">Jobs</a>
+                    <a href="learn.html">Learn</a>
+                    <a href="contact.html" class="active">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Content of the page. -->
+        <div class="page">
+
+            <!-- Our Team page description section -->
+            <div class="content">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+        <!-- Section of the page will be in two columns (contact form / why should they contact?)-->
+        <div class="page split">
+            <div class="content application">
+                <!-- The form element will include JS and Buttons -->
+                <form>
+                    <p><label>First Name</label><input type="text" maxlength="100" required></p>
+                    <p><label>Surname</label><input type="text" maxlength="100" required></p>
+                    <p><label>Email Address</label><input type="email" required></p>
+                    <p><label>Message</label><textarea required minlength="100" maxlength="1200" placeholder="What do you need help with?"></textarea></p>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer of the page, including links and contact information. -->
+        <footer>
+            <div class="content footer-content">
+                <div>
+                    <div class="head">Useful Links</div>
+                    <a href="policy.html#copyright">Copyright</a>
+                    <a href="policy.html#privacy">Privacy Policy</a>
+                </div>
+                <div class="img">
+                    <div class="head">Social Media</div>
+                    <a href="https://www.twitter.com"><img src="https://img.icons8.com/material/96/null/twitter--v2.png" alt="twiiter" height="18" width="18"></a>
+                    <a href="https://www.facebook.com"><img src="https://img.icons8.com/material/96/null/facebook--v1.png" alt="facebook" height="18" width="18"></a>
+                    <a href="https://www.instagram.com"><img src="https://img.icons8.com/material/96/null/instagram-new--v1.png" alt="instagram" height="18" width="18"></a>
+                </div>
+                <div>
+                    <div class="head">Contact Info</div>
+                    <div class="small">
+                        28 Church Road<br>
+                        Carmarthenshire, Wales<br>
+                        Tel: +44 000 123456<br>
+                    </div>
+                    <a href="mailto:hotshotsweb@company.com">hotshotsweb@company.com</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
