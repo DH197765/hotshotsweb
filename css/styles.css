@@ -84,9 +84,10 @@ div.page { padding: 1em; }
 div.split {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 1em;
+  gap: 2em;
   margin: auto;
   max-width: 1000px;
+  padding: 0em;
 }
 
 div.content {
