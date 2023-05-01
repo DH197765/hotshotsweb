@@ -187,7 +187,6 @@ div.application > form > button:hover {
 div.list {
   display: flex;
   flex-direction: column;
-  column-gap: 0.5em;
 }
 
 div.list > div.list-item {
