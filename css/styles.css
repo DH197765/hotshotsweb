@@ -87,7 +87,10 @@ div.split {
   gap: 2em;
   margin: auto;
   max-width: 1000px;
-  padding: 0em;
+}
+
+div.split > div.content {
+  margin: 0;
 }
 
 div.content {
