@@ -128,12 +128,14 @@ div.avatar-grid > div.avatar-container img {
 
 /* Application */
 div.application {
-  display: flex;
-  flex-direction: column;
-  
   padding: 1em;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+div.application > form {
+  display: flex;
+  flex-direction: column;
 }
 
 div.application > form > p {
@@ -167,16 +169,16 @@ div.application > form > p textarea {
 }
 
 div.application > form > button {
+  border-radius: 8px;
+  cursor: pointer;
   padding: 1em;
   border: none;
-  font-size: normal;
   color: white;
   background-color: #004BD6;
 }
 
 div.application > form > button:hover {
   background-color: black;
-  cursor: pointer;
 }
 
 /* Thumbnail */
