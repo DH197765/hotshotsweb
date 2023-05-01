@@ -213,6 +213,10 @@ div.list > div.list-item > div.button {
   background: #004BD6;
 }
 
+div.list > div.list-item > div.button:hover {
+  background-color: black;
+}
+
 div.list > div.list-item > div.button a {
   color: white;
   text-decoration: none;
