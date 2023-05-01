@@ -173,6 +173,7 @@ div.application > form > button {
   cursor: pointer;
   padding: 1em;
   border: none;
+  font-size: medium;
   color: white;
   background-color: #004BD6;
 }
