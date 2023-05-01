@@ -169,6 +169,7 @@ div.application > form > p textarea {
 }
 
 div.application > form > button {
+  font-family: "Figtree", sans-serif;
   border-radius: 8px;
   cursor: pointer;
   padding: 1em;
