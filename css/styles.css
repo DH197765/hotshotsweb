@@ -183,6 +183,40 @@ div.application > form > button:hover {
   background-color: black;
 }
 
+/* List */
+div.list {
+  display: flex;
+  flex-direction: column;
+  column-gap: 0.5em;
+}
+
+div.list > div.list-item {
+  display: grid;
+  grid-template-columns: max-content auto max-content;
+  padding: 0.5em;
+  border-bottom: rgba(0, 0, 0, 0.25) 1px solid
+}
+
+div.list > div.list-item > * {
+  display: flex;
+  justify-content: center;
+}
+
+div.list > div.list-item :is(h1, h2, h3, h4) {
+  margin-block: 0em;
+  margin-bottom: 0.25em;
+}
+
+div.list > div.list-item > div.button {
+  padding: 0.25em;
+  background: #004BD6;
+}
+
+div.list > div.list-item > div.button a {
+  color: white;
+  text-decoration: none;
+}
+
 /* Thumbnail */
 img.thumbnail {
   max-width: 320px;
