@@ -87,6 +87,7 @@ div.split {
   gap: 2em;
   margin: auto;
   max-width: 1000px;
+  box-sizing: content-box;
 }
 
 div.split > div.content {
