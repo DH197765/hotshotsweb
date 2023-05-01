@@ -128,6 +128,9 @@ div.avatar-grid > div.avatar-container img {
 
 /* Application */
 div.application {
+  display: flex;
+  flex-direction: column;
+  
   padding: 1em;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.05);
@@ -164,7 +167,6 @@ div.application > form > p textarea {
 }
 
 div.application > form > button {
-  float: right;
   padding: 1em;
   border: none;
   font-size: normal;
@@ -174,6 +176,7 @@ div.application > form > button {
 
 div.application > form > button:hover {
   background-color: black;
+  cursor: pointer;
 }
 
 /* Thumbnail */
