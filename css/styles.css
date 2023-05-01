@@ -172,6 +172,10 @@ div.application > form > button {
   background-color: #004BD6;
 }
 
+div.application > form > button:hover {
+  background-color: black;
+}
+
 /* Thumbnail */
 img.thumbnail {
   max-width: 320px;
