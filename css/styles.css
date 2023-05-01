@@ -85,6 +85,8 @@ div.split {
   display: grid;
   grid-template-columns: auto auto;
   gap: 1em;
+  margin: auto;
+  max-width: 1000px;
 }
 
 div.content {
