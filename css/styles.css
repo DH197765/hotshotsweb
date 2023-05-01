@@ -207,6 +207,7 @@ div.list > div.list-item > * {
 div.list > div.list-item :is(h1, h2, h3, h4) {
   margin-block: 0em;
   margin-bottom: 0.25em;
+  font-size: medium;
 }
 
 div.list > div.list-item > div.button {
