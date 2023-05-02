@@ -107,7 +107,7 @@ div.mobile-menu {
   top: 0; right: 0;
   z-index: 999;
 
-  transition: transform 0.125s ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 div.mobile-menu.open {
@@ -115,12 +115,17 @@ div.mobile-menu.open {
 }
 
 div.mobile-menu div.controls {
+  display: flex;
+  justify-content: end;
   padding: 1em;
 }
 
 div.mobile-menu div.controls img {
-  margin: auto 0 auto auto;
   cursor: pointer;
+}
+
+div.mobile-menu nav {
+  padding: 1em;
 }
 
 div.mobile-menu nav a {
