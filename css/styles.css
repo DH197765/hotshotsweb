@@ -80,8 +80,10 @@ footer > div.footer-content > div a:hover { text-decoration: underline; }
 
 /* Mobile Menu */
 header > div > div.mobile-menu-button {
+  cursor: pointer;
+  display: none;
   margin: auto 0 auto auto;
-  padding: 0.2em;
+  padding: 0.3em;
   border-radius: 8px;
 }
 
@@ -104,6 +106,11 @@ div.mobile-menu {
   transform: translateX(100%);
   top: 0; right: 0;
   z-index: 999;
+}
+
+@media (max-width: 600px) {
+  header > div > nav { display: none; }
+  header > div > div.mobile-menu-button { display: block; }
 }
 
 /* Content */
