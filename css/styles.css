@@ -106,6 +106,33 @@ div.mobile-menu {
   transform: translateX(100%);
   top: 0; right: 0;
   z-index: 999;
+
+  transition: transform 0.125s ease-in-out;
+}
+
+div.mobile-menu.open {
+  transform: translateX(0%);
+}
+
+div.mobile-menu div.controls {
+  padding: 1em;
+}
+
+div.mobile-menu div.controls img {
+  margin: auto 0 auto auto;
+  cursor: pointer;
+}
+
+div.mobile-menu nav a {
+  display: block;
+  padding: 1em;
+  color: #004BD6;
+  text-decoration: none;
+}
+
+div.mobile-menu nav a.active {
+  background-color: #004BD6;
+  color: white;
 }
 
 @media (max-width: 600px) {
