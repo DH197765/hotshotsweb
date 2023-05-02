@@ -140,6 +140,12 @@ div.mobile-menu nav a.active {
   color: white;
 }
 
+@media (min-width: 600px) {
+  div.mobile-menu {
+    display: none;
+  }
+}
+
 @media (max-width: 600px) {
   header > div > nav { display: none; }
   header > div > div.mobile-menu-button { display: block; }
