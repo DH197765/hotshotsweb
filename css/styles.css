@@ -177,6 +177,12 @@ div.page > div.content {
   margin: 1em auto;
 }
 
+@media (max-width: 600px) {
+  div.split {
+    display: block;
+  }
+}
+
 /* Member Avatars */
 div.avatar-grid {
   display: grid;
@@ -229,6 +235,12 @@ div.application > form > p {
   display: grid;
   grid-template-columns: max-content auto;
   gap: 2em;
+}
+
+@media (max-width: 600px) {
+  div.application > form > p {
+    display: block;
+  }
 }
 
 div.application > form > p label {
